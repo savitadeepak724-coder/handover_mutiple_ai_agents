@@ -1,0 +1,31 @@
+{ 
+  "name": "handoverai-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "start":"node backend/service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@langchain/anthropic": "^1.6.5",
+    "@langchain/google-genai": "^2.3.6",
+    "@langchain/langgraph": "^1.7.4",
+    "@langchain/openai": "^1.8.4",
+    "@slack/web-api": "^8.4.0",
+    "axios": "^1.21.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "googleapis": "^190.0.0",
+    "octokit": "^5.0.5",
+    "pg": "^8.23.1"
+  }
+}
